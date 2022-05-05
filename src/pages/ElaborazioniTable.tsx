@@ -10,6 +10,7 @@ import { Cats } from "../models/cats";
 import { render } from "@testing-library/react";
 import "./ElaborazioniTable.css"
 import { useNavigate } from "react-router-dom";
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query";
 
 
 
@@ -38,6 +39,7 @@ function routerButton(link:string) {
   );
 }
 
+
 function ElaborazioniTable() {
 
  
@@ -47,6 +49,8 @@ function ElaborazioniTable() {
     defaultPosts
   );
   
+  
+
 
   useEffect(() => {
     axios

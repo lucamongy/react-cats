@@ -5,7 +5,7 @@ import { Cats } from '../models/cats';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import { Button } from 'primereact/button';
 import { Image } from 'primereact/image';
-
+import  FilmsList  from '../components/swFilmsList'
 import './AccordionDemo.css';
 import { stringify } from 'querystring';
 
@@ -45,11 +45,7 @@ function CatDetails(){
                     </AccordionTab>
                 </Accordion>
             </div>
-            <div className="ui-grid">
-            <div className="ui-grid-col-4">Col1</div>
-            <div className="ui-grid-col-4">Col2</div>
-            <div className="ui-grid-col-4">Col2</div>
-            </div>
+            < FilmsList/>
         </div>
     )
 
