@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from '../logo.svg'
-import './App.css'
+import './home.css'
 
 export default function Home(){
 
