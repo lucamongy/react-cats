@@ -20,7 +20,7 @@ function routerButton(label:string, link:string, classname:string) {
 
     const leftcomponents = (
         <React.Fragment>
-                {routerButton("Vimaplast HyperFucker","/","p-button-text")}
+                {routerButton("Cats HyperFucker","/","p-button-text")}
         </React.Fragment>
       )
 
