@@ -2,15 +2,10 @@ import React, { useCallback, useEffect, useState } from "react";
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
 import { Button } from "primereact/button";
-import { Image } from "primereact/image";
 import axios from "axios";
-import { getAllJSDocTags } from "typescript";
-import internal from "stream";
 import { Cats } from "../models/cats";
-import { render } from "@testing-library/react";
 import "./ElaborazioniTable.css"
 import { useNavigate } from "react-router-dom";
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query";
 
 
 

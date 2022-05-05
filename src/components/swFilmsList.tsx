@@ -1,5 +1,5 @@
 import React from 'react'
-import { useGetFilmByIdQuery, useGetFilmsQuery } from '../services/starWarsApi'
+import {useGetFilmsQuery } from '../services/starWarsApi'
 
 const FilmsList = () => {
 

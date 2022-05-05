@@ -1,5 +1,4 @@
 import React, { useCallback } from "react";
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Link, useNavigate } from "react-router-dom";
 import Home from "./pages/home";
 import ElaborazioniTable from "./pages/ElaborazioniTable";

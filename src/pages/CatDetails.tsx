@@ -1,13 +1,10 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
-import { Cats } from '../models/cats';
 import { Accordion, AccordionTab } from 'primereact/accordion';
-import { Button } from 'primereact/button';
 import { Image } from 'primereact/image';
 import  FilmsList  from '../components/swFilmsList'
 import './AccordionDemo.css';
-import { stringify } from 'querystring';
 
 
 
