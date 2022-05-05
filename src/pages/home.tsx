@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-
+import logo from '../logo.svg'
+import './App.css'
 
 export default function Home(){
 
@@ -8,8 +9,9 @@ export default function Home(){
     const handleOnClick = useCallback(() => navigate('/elaborazioni', {replace: true}), [navigate]);
 
     return (
-        <div>
-            <h2>Ciao Gatti!</h2>
-        </div>
+      <div className="App">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>Hello Cats!</p>
+      </div>
       );
     }
